@@ -43,7 +43,8 @@
          Specify an index document and an error document.
 
 # Step 7: Monitor and Manage Your Bucket
-    Definition: Monitor usage, access, and management of your S3 bucket using features like access logs, CloudWatch metrics, and events.
+    Definition: Monitor usage, access, and management of your S3 bucket using features like access logs,
+       CloudWatch metrics, and events.
     Instructions:
         Configure access logs to track requests made to your bucket.
         Set up CloudWatch alarms for monitoring bucket metrics.
