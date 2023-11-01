@@ -22,13 +22,15 @@
        For example, create an A record to map your domain to the IP address of a web server.
 
 # Step 4: Update Name Servers
-    Definition: After creating DNS records, you need to update your domain's name servers with your domain registrar to use Route 53 for DNS management.
+    Definition: After creating DNS records, you need to update your domain's name servers with your domain registrar 
+                   to use Route 53 for DNS management.
     Instructions:
        Route 53 provides you with a set of name server records. 
        Update these records with your domain registrar (where you purchased the domain).
 
 # Step 5: Health Checks and Routing Policies
-    Definition: Route 53 allows you to configure health checks and routing policies for your resources to enhance availability and reliability.
+    Definition: Route 53 allows you to configure health checks and routing policies for your resources to
+              enhance availability and reliability.
     Instructions:
         Create health checks to monitor the health of your resources.
         Configure routing policies such as simple, weighted, latency-based, geolocation, or failover routing based on your needs.
