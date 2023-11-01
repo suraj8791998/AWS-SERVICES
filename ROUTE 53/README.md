@@ -1,13 +1,15 @@
 # AWS ROUTE 53
 
 # Step 1: Access Route 53
-    Definition: Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service provided by AWS. It helps route web traffic to your resources.
+    Definition: Amazon Route 53 is a scalable and highly available Domain Name System (DNS) web service provided by AWS. 
+                It helps route web traffic to your resources.
     Instructions:
          Go to the AWS Management Console.
          In the navigation pane, choose "Route 53."
 
 # Step 2: Create a Hosted Zone
-    Definition: A hosted zone is a container for DNS records for a specific domain. It allows you to control how your domain's DNS information is managed.
+    Definition: A hosted zone is a container for DNS records for a specific domain. 
+                It allows you to control how your domain's DNS information is managed.
     Instructions:
          Click the "Create Hosted Zone" button.
          Enter your domain name (e.g., example.com) and choose a type (public or private).
