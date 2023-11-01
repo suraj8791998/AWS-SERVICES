@@ -14,6 +14,17 @@
         Click the "Create bucket" button.
         Choose a unique name for your bucket (e.g., my-example-bucket).
         Select the AWS region where you want to create the bucket.
+        Object Ownership
+            - ACLs disabled 
+                 Objects in this bucket are owned by this aws account
+            - ACLs enabled
+                 Objects in this bucket are owned by other aws account
+        Block Public Access settings for this bucket
+            - if you want to block the access of the public then we can use this option
+        Bucket Versioning
+            - if you want to maintain the multiple versions of the same file then we can use this option 
+                or else it will replace the file
+        
 
 # Step 3: Configure Bucket Properties
     Definition: Configure settings for your S3 bucket, including versioning, logging, and object tags.
@@ -24,11 +35,12 @@
 
 # Step 4: Set Permissions
      Definition: Define who can access your S3 bucket and objects. This involves configuring bucket policies, 
-        access control lists (ACLs),   and CORS (Cross-Origin Resource Sharing).
+        access control lists (ACLs),  and CORS (Cross-Origin Resource Sharing).
      Instructions:
-         Configure permissions based on your use case:Bucket policies for fine-grained access control.
-         ACLs for granting specific permissions to individual objects.
-         CORS for controlling web browser access.
+         Configure permissions based on your use case:
+             Bucket policies for fine-grained access control.
+             ACLs for granting specific permissions to individual objects.
+             CORS for controlling web browser access.
 
 # Step 5: Create Folders and Upload Objects
     Definition: Create folders (commonly referred to as "prefixes") within your bucket and upload objects to store data.
