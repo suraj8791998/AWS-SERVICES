@@ -22,11 +22,11 @@
        
        Specify inbound and outbound rules for your Security Group.
        
-             Inbound: These rules control incoming traffic to your EC2 instances, specifying which protocols and ports are allowed. For example, to allow SSH 
-                 access, you create an inbound rule allowing Port 22 from a specific IP address.
+             Inbound: These rules control incoming traffic to your EC2 instances, specifying which protocols and ports are allowed. 
+                For example, to allow SSH access, you create an inbound rule allowing Port 22 from a specific IP address.
                  
-             Outbound: These rules control outgoing traffic from your instances, specifying destinations that your instances can access. The default outbound rule 
-                 allows all traffic.
+             Outbound: These rules control outgoing traffic from your instances, specifying destinations that your instances can access.
+                 The default outbound rule allows all traffic.
 
 # Step 3: Associate with EC2 Instances
   Definition: You need to associate your Security Group with your EC2 instances to control the traffic they receive.
@@ -42,8 +42,9 @@
 **AWS Network Access Control Lists (NACLs):**
 
 # Step 1: Access NACLs
-   Definition: AWS Network Access Control Lists (NACLs) are stateless, subnet-level firewalls that control inbound and outbound traffic at the subnet level in your 
-          Virtual Private Cloud (VPC).
+   Definition: AWS Network Access Control Lists (NACLs) are stateless, subnet-level firewalls that control inbound and outbound
+      traffic at the subnet level in your Virtual Private Cloud (VPC).
+   
    Instructions:
    
         From the AWS Management Console, go to the VPC Dashboard.
@@ -65,11 +66,11 @@
     
            Create inbound and outbound rules as needed.
            
-                Inbound: These rules control incoming traffic to the subnet, specifying which protocols and ports are allowed. For example, rule 100 might allow 
-                      HTTP traffic (Port 80).
+                Inbound: These rules control incoming traffic to the subnet, specifying which protocols and ports are allowed. 
+                     For example, rule 100 might allow HTTP traffic (Port 80).
                       
-                Outbound: These rules control outgoing traffic from the subnet, specifying destinations that are allowed. The default outbound rule allows all 
-                    traffic.
+                Outbound: These rules control outgoing traffic from the subnet, specifying destinations that are allowed. 
+                   The default outbound rule allows all traffic.
 
 # Step 4: Associate with Subnets
     Definition: After defining rules, you associate your NACL with specific subnets to apply the rules to the network traffic.
