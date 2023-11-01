@@ -1,13 +1,15 @@
 # S3 BUCKETS 
 
 # Step 1: Access S3
-    Definition: Amazon S3 is an object storage service that offers scalable and durable storage for various data types, including files,     images, and backups.
+    Definition: Amazon S3 is an object storage service that offers scalable and durable storage 
+       for various data types, including files,     images, and backups.
     Instructions:
        Go to the AWS Management Console.
        In the navigation pane, choose "S3."
 
 # Step 2: Create a Bucket
-    Definition: A bucket is a container for storing objects (files) in S3. Buckets have a globally unique name.
+    Definition: A bucket is a container for storing objects (files) in S3. 
+       Buckets have a globally unique name.
     Instructions:
         Click the "Create bucket" button.
         Choose a unique name for your bucket (e.g., my-example-bucket).
@@ -21,7 +23,8 @@
          Add object tags for better management.
 
 # Step 4: Set Permissions
-     Definition: Define who can access your S3 bucket and objects. This involves configuring bucket policies, access control lists (ACLs),   and CORS (Cross-Origin Resource Sharing).
+     Definition: Define who can access your S3 bucket and objects. This involves configuring bucket policies, 
+        access control lists (ACLs),   and CORS (Cross-Origin Resource Sharing).
      Instructions:
          Configure permissions based on your use case:Bucket policies for fine-grained access control.
          ACLs for granting specific permissions to individual objects.
