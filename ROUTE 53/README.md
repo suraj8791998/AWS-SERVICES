@@ -14,7 +14,10 @@
          Click the "Create Hosted Zone" button.
          Enter your domain name (e.g., example.com) and choose a type (public or private).
          Route 53 automatically generates a unique Hosted Zone ID.
-
+         Public hosted zone  - It determines how traffic is routed on internet
+         Private hosted zone - It determines how traffic is routed on Amazon VPC 
+                    (You have to choose Region and VPC)
+ 
 # Step 3: Create DNS Records
     Definition: DNS records are used to map human-friendly domain names to IP addresses or other resources.
     Instructions:
