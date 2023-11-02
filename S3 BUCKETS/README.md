@@ -15,9 +15,9 @@
         Choose a unique name for your bucket (e.g., my-example-bucket).
         Select the AWS region where you want to create the bucket.
         Object Ownership
-            - ACLs disabled 
+            - ACLs(Access control lists) disabled 
                  Objects in this bucket are owned by this aws account
-            - ACLs enabled
+            - ACLs(Access control lists) enabled
                  Objects in this bucket are owned by other aws account
         Block Public Access settings for this bucket
             - if you want to block the access of the public then we can use this option
