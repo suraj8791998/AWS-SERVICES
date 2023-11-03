@@ -74,4 +74,6 @@
    
       Access stack outputs to obtain information about resources created by the stack.
       
-      AWS CloudFormation enables infrastructure as code, making it easy to create and manage AWS resources in a repeatable and consistent manner. 
+      AWS CloudFormation enables infrastructure as code, making it easy to create and manage AWS 
+      
+      resources in a repeatable and consistent manner. 
