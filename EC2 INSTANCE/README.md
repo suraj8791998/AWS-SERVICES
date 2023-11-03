@@ -82,4 +82,6 @@
 # Step 10: Manage and Monitor Instances
     Definition: Monitor and manage your instances using the EC2 Dashboard and other AWS services like CloudWatch.
     
-    Instructions:Access the EC2 Dashboard to view information about your instances, manage them, and stop or terminate instances when they're no longer needed.
+    Instructions:Access the EC2 Dashboard to view information about your instances, manage them, and stop or terminate 
+    
+    instances when they're no longer needed.
