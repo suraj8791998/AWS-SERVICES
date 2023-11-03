@@ -46,7 +46,8 @@ AWS Elastic Load Balancers (ELB):
 
       Instructions:
 
-            Set routing rules to route traffic to different target groups based on factors like path patterns, host headers, or URL paths.
+            Set routing rules to route traffic to different target groups based on factors 
+               like path patterns, host headers, or URL paths.
 
 # Step 6: Configure Security Settings
       Definition: Configure security settings like security groups and certificates (for HTTPS listeners) to secure traffic.
@@ -65,7 +66,8 @@ AWS Elastic Load Balancers (ELB):
             Select the target group and register EC2 instances by specifying their instance IDs.
 
 # Step 8: Monitor and Auto-Scaling (Optional)
-      Definition: Use CloudWatch and Auto Scaling to monitor and automatically adjust the number of instances in your target groups based on metrics.
+      Definition: Use CloudWatch and Auto Scaling to monitor and automatically adjust the number of 
+         instances in your target groups based on metrics.
 
       Instructions:
 
