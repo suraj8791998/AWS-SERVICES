@@ -40,7 +40,8 @@
             Create security groups and NACLs with the rules that allow or deny traffic based on your requirements.
 
 # Step 7: Elastic IPs and NAT Gateways
-     Definition: Use Elastic IPs for instances that need a static public IP address. NAT Gateways enable private subnet instances to access the internet.
+     Definition: Use Elastic IPs for instances that need a static public IP address. NAT Gateways enable 
+            private subnet instances to access the internet.
      Instructions:
            Allocate an Elastic IP and associate it with an instance that needs a static public IP.
            Create a NAT Gateway for instances in private subnets to access the internet.
@@ -48,4 +49,6 @@
 # Step 8: Peering and VPN Connections
       Definition: You can create VPC peering connections to connect VPCs in the same or different regions. 
                  VPN connections provide secure communication between your on-premises network and your VPC.
-      Instructions:Create VPC peering connections and accept the peering request from the other VPC.Set up VPN connections and configure the necessary VPN resources.
+      Instructions:
+            Create VPC peering connections and accept the peering request from the other VPC.
+            Set up VPN connections and configure the necessary VPN resources.
