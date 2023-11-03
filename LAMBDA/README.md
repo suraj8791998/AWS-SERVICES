@@ -21,7 +21,8 @@
          Configure your function by specifying the runtime, permissions, and triggers.
 
 # Step 3: Configure Triggers
-    Definition: Lambda functions can be triggered by various events, such as API Gateway, S3 uploads, CloudWatch Alarms, and more.
+    Definition: Lambda functions can be triggered by various events, such as API Gateway, S3 uploads, 
+         CloudWatch Alarms, and more.
 
     Instructions:
 
